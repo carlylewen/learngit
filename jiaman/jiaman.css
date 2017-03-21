@@ -1,0 +1,19 @@
+p{
+  padding-left: 50px;
+  width: 500px;
+}
+h2{
+  padding-left: 60px;
+ font-family: cursive;
+}
+ol{
+  padding-left: 60px;
+  width: 500px;
+}
+#tupian{
+  /*text-align: center;*/
+  padding-left:300px;
+}
+#hometown,#expectation{
+  padding-left: 150px;
+}
