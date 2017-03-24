@@ -12,8 +12,11 @@ ol{
 }
 #tupian{
   /*text-align: center;*/
-  padding-left:300px;
+  padding-left:40%;
 }
 #hometown,#expectation{
   padding-left: 150px;
+}
+#tupian2{
+  padding-left:30px;
 }
