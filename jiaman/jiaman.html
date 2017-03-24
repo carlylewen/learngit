@@ -9,19 +9,20 @@ div.container
 /*border:1em solid;*/
 font-family: "Microsoft YaHei";
 margin: 60px;
+margin-left:206px;
 }
 /*下面注释为css内容*/
 /*h2{
   font-family: cursive;
 }*/
-/*定义左边20%的盒子样式*/
+/*定义左边200px的盒子样式*/
 /*边界 字体样式 浮动左边 背景*/
 div.box1
 {
 box-sizing:border-box;
--moz-box-sizing:border-box; /* Firefox */
--webkit-box-sizing:border-box; /* Safari */
-width:20%;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box; 
+width:200px;
 border:1em solid #f9f6f6;
 float:left;
 height: 600px;
@@ -30,15 +31,16 @@ padding-bottom: 50px;
 text-align: center;
 background-color: #eaebe5;
 font-family: cursive;
+margin-left:-200px;
 }
-/*定义右边80%的盒子样式*/
+/*定义右边自适应的盒子样式*/
 /*边界 字体样式 浮动左边 背景*/
 div.box2
 {
 box-sizing:border-box;
 -moz-box-sizing:border-box;
 -webkit-box-sizing:border-box;
-width:80%;
+width:auto;
 border:1em solid #f9f6f6;
 float:left;
 padding-top: 50px;
